@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation */
+.nav .right{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.nav{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100%;
+    height: 580px;
+}
+.nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.nav .logo{
+    margin-top: 150px;
+    text-align: center;
+}
+.nav .text{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.nav .srch{
+    text-align: center;
+}
+.logo img{
+    width: 25%;
+}
+.nav .srch input{
+    width: 600px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.nav .srch button{
+
+    width: 20px;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*item block*/
+
+.item{
+    padding: 10px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    background: whitesmoke;
+    padding: 8px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.card:hover{
+    background: rgba(233, 221, 221, 0.758);
+}
+.crd img{
+    padding-left: 5px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.crd p{
+    font: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/*brand name*/
+.pop_brnd{
+    padding: 10px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.brands{
+    background: whitesmoke ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.brands:hover{
+    background:rgba(233, 221, 221, 0.758) ;
+}
+.brands img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.brnd_name {
+    text-align: center;
+}
+/*collectioin */
+
+.coll{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/*
+.coll .text{
+    display: flex;
+    flex-direction: column;
+}
+.coll .text p{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}*/
+.coll .coll_img{
+    margin-left: 20px;
+    display: flex;
+    height: 500px;
+    
+    background: blueviolet;
+    background: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=600);
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url('https://images.pexels.com/photos/1449775/pexels-photo-1449775.jpeg?auto=compress&cs=tinysrgb&w=600');}
+
+    25%{ background-image: url('https://cdn.vox-cdn.com/thumbor/5d_RtADj8ncnVqh-afV3mU-XQv0=/0x0:1600x1067/1200x900/filters:focal(672x406:928x662)/cdn.vox-cdn.com/uploads/chorus_image/image/57698831/51951042270_78ea1e8590_h.7.jpg');}
+
+    50%{ background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg');}
+
+    75%{ background-image: url('https://media.istockphoto.com/id/104704117/photo/restaurant-plates.webp?b=1&s=170667a&w=0&k=20&c=VRfRu8ZEOwmyZSjP-NGx5F64IQTHTWlWDcThk2N84pg=');}
+}
+
+/*another block*/
+.app{
+    display: flex;
+    background: rgb(244, 246, 196);
+    justify-content: center;
+    
+}
+.app h1{
+    padding-top: 160px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.app img{
+    padding: 20px;
+}
+
+/*Location verious cities*/
+
+.loc{
+    padding: 30px;
+    background: rgb(241, 234, 234);
+}
+.loc h1{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}.loc img{
+    height: 20px;
+    width: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loc p{
+    text-align: center;
+    color: rgb(103, 100, 100);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.loc button{
+    width: 500px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(252, 252, 252);
+    margin-top: 11px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*footer part*/
+
+.footer{
+    padding: 60px;
+    background: rgba(228, 223, 223, 0.735);
+}
+.footer .foot1{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    
+}
+.footer .foot1 img{
+    height: 30px;
+    width: 129px;
+}
+.footer .list{
+    padding: 20x;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+    text-align: initial;
+}
+.footer h4{
+    padding: 20px;
+    font-weight: 100;
+}
+.footer p{
+    padding: 5px;
+
+    color: rgb(73, 73, 74);
+}
+.list .about_zomato{
+    display: block;
+    width: 200px
+}
+.list .about_zomato p{
+    padding-left: 30px;
+}
+.list .zomeaverse{
+    display: block;
+    width: 200px
+}
+.list .zomeaverse p{
+    padding-left: 30px;
+}
+.list .for_resturents{
+    display: block;
+    width: 200px
+}
+.list .for_resturents p{
+    padding-left: 30px;
+}
+.list .for_enterprises{
+    display: block;
+    width: 200px
+}
+.list .for_enterprises p{
+    padding-left: 30px;
+}
+.list .learn_more{
+    display: block;
+    width: 200px
+}
+.list .learn_more p{
+    padding-left: 30px;
+}
+.list .links{
+    display: block;
+    width: 200px
+}
+.list .links .appstore{
+
+    display: flex;
+    padding: 10px;
+    
+}
+.appstore img{
+    height: 35px;
+    width: 110px;
+}
+.list .links .googleplay{
+
+    display: flex;
+    padding: 10px;
+    
+}
+.googleplay img{
+    height: 35px;
+    width: 110px;
+}
